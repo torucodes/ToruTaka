@@ -41,8 +41,6 @@ jobs:
             core.setOutput('title', issue.data.title)
             core.setOutput('body', issue.data.body)
             
-      - name: Name of Owner
-        id: test
-        run: echo "${{ context.repo.owner }}"
+    
 
       
