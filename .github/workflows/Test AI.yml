@@ -11,6 +11,8 @@ on:
 jobs:
   inference:
     permissions:
+      contents: read
+      issues: write  
       models: read
     runs-on: ubuntu-latest
     steps:
